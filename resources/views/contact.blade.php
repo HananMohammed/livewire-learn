@@ -1,4 +1,5 @@
 @extends('includes.layout')
+
 @section('content')
-    <livewire:counter/>
-@endsection
+    <livewire:contact-form/>
+@endSection
