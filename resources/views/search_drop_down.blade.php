@@ -1,11 +1,5 @@
 @extends('includes.layout')
 @section('content')
-    <div>
-        <div class="h-96"></div>
-        <div class="h-96"></div>
-    </div>
-
-<hr>
 
 <h2 class="text-lg font-semibold mt-4">Livewire Search Dropdown</h2>
 

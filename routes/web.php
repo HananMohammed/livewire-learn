@@ -14,6 +14,10 @@ Route::get('/contact', function () {
 Route::get('/search-drop-down', function () {
     return view('search_drop_down');
 });
+
+Route::get('/datatable', function () {
+    return view('datatable');
+});
 //
 //Route::post('/contact', function (Request $request) {
 //    $contact = $request->validate([
