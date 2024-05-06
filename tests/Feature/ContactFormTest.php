@@ -10,6 +10,7 @@ test('contact form', function () {
     $response->assertStatus(200);
 });
 
+
 test('contact form submit', function () {
     Livewire::test(ContactForm::class)
     ->set('name', 'John')
