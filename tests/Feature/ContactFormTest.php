@@ -7,6 +7,7 @@ test('contact form', function () {
     $response = $this->get('/contact')
         ->assertSeeLivewire('contact-form');
 
+    
     $response->assertStatus(200);
 });
 
