@@ -10,6 +10,10 @@ Route::get('/', function () {
 Route::get('/contact', function () {
     return view('contact');
 });
+
+Route::get('/search-drop-down', function () {
+    return view('search_drop_down');
+});
 //
 //Route::post('/contact', function (Request $request) {
 //    $contact = $request->validate([
