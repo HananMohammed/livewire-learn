@@ -1,5 +1,5 @@
 @extends('includes.layout')
 @section('content')
-    <livewire:datatable />
+    @livewire('datatable')
 @endsection
 
