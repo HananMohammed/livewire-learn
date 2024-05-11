@@ -10,6 +10,10 @@ Route::get('/', function () {
 Route::get('/contact', function () {
     return view('contact');
 });
+
+Route::get('/polling', function () {
+    return view('polling');
+});
 //
 //Route::post('/contact', function (Request $request) {
 //    $contact = $request->validate([
